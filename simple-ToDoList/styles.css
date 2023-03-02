@@ -1,0 +1,91 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: poppins , sans-serif;
+}
+
+
+body{
+    background: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.container{
+
+    position: absolute;
+    background: linear-gradient(90deg, #3a47d5 0%, #037d99
+    100%);
+    border-radius: 18px;
+    width: 300px;
+    aspect-ratio: 1/1;
+    top: 10rem;
+    color: azure;
+    padding: 1rem;
+    -webkit-box-shadow: 5px 9px 20px -10px rgba(24,38,163,1);
+-moz-box-shadow: 5px 9px 20px -10px rgba(24,38,163,1);
+box-shadow: 5px 9px 20px -10px rgba(24,38,163,1);
+}
+
+.container .title{
+
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.title h1{
+    font-size: 22Wpx;
+}
+.container li{
+    background-color: #929af859;
+    margin-top: 1rem;
+    border-radius: 8px;
+    padding: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container li i{
+
+    cursor: pointer;
+}
+
+.container .my-form{
+
+    margin-top: 1rem;
+    background-color: #929af859;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+    border-radius: 8px;
+}
+
+.container .my-form .text{
+
+    background: transparent;
+    border: none;
+}
+
+.container .my-form .text::placeholder{
+
+    color: #fff;
+}
+
+.container .my-form .btn{
+
+    background: #3a47d5;
+    padding: 0.6rem 0.8rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+
+}
